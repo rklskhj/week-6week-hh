@@ -4,16 +4,14 @@ import Header from '../components/Header'
 import Layout from '../components/Layout'
 import Categorie from '../components/Categorie'
 import Button from '../elem/button'
-import axios from 'axios'
 
-import { useForm } from 'react-hook-form'
 import { useDispatch } from 'react-redux'
 import { __addPosts } from '../redux/modules/postsSlice'
 import { useNavigate } from 'react-router-dom'
 
 import styled from 'styled-components'
 import Swal from 'sweetalert2'
-import { FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
+import { FormControlLabel, Radio, RadioGroup } from '@mui/material'
 import { getCookieToken } from '../shared/cookie'
 
 

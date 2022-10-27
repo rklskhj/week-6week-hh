@@ -1,12 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 import Api from "../../shared/Api";
-import instance from "../../shared/aips";
-import { api } from "../../shared/aips";
-
-// const urlLogin = {
-//     login: process.env.
-// }
 
 const LOGIN = "user/LOGIN";
 const LOGOUT = "user/LOGOUT";

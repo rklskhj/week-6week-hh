@@ -1,6 +1,4 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
-import _default from "react-redux/es/components/connect";
 import Api from "../../shared/Api";
 
 // 조회

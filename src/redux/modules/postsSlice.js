@@ -62,20 +62,6 @@ export const __deletePosts = createAsyncThunk(
   }
 );
 
-// /** 게시글 상세보기 조회 Thunl */
-// export const __detailPosts = createAsyncThunk(
-//   "posts/detailPosts",
-//   async (postId, thunkAPI) => {
-//     console.log("detail", postId);
-//     try {
-//       await Api.get(`/posts/${postId}`);
-//       return thunkAPI.fulfillWithValue(postId);
-//     } catch (error) {
-//       return thunkAPI.rejectWithValue(error);
-//     }
-//   }
-// );
-
 const postsSlice = createSlice({
   name: "posts",
   initialState,

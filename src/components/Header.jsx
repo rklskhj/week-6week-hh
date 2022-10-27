@@ -7,7 +7,6 @@ import Button from '../elem/button';
 
 import styled from 'styled-components';
 
-import jwtDecode from 'jwt-decode';
 
 import { useNavigate } from 'react-router-dom';
 import { getCookieToken, removeCookieToken } from '../shared/cookie';

@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 
 import styled from 'styled-components';
-import { __detailPosts, __editPosts, __getPosts } from '../redux/modules/postsSlice';
+import { __editPosts } from '../redux/modules/postsSlice';
 
 const PostCard = ({ post }) => {
     const dispatch = useDispatch()

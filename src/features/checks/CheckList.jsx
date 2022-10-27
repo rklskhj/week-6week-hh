@@ -1,10 +1,9 @@
-import { CommentsDisabled } from '@mui/icons-material'
-import React, { useEffect } from 'react'
+
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import styled from 'styled-components'
-import { __getCheckList } from '../../redux/modules/checkListSlice'
-import { __detailPosts, __getPosts } from '../../redux/modules/postsSlice'
+
 import Checks from './Checks'
 
 

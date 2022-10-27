@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { __addCheck, __deletePosts, __detailPosts, __editPosts, __getPosts } from '../redux/modules/postsSlice'
+import { __deletePosts, __editPosts, __getPosts } from '../redux/modules/postsSlice'
 
 import Footer from '../components/Footer'
 import Header from '../components/Header'
